@@ -140,7 +140,13 @@
       "geometry": null,
       "material": null,
       "parentId": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
-      "components": {},
+      "components": {
+        "3a9e5828-4d8e-409b-9a0b-786e10d65683": {
+          "id": "3a9e5828-4d8e-409b-9a0b-786e10d65683",
+          "name": "animation-sequence",
+          "parameters": {}
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
