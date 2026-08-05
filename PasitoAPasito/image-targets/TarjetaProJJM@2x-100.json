@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 368,
+    "left": 0,
+    "width": 1617,
+    "height": 2156,
+    "isRotated": true,
+    "originalWidth": 1617,
+    "originalHeight": 2817
+  },
+  "imagePath": "image-targets/TarjetaProJJM@2x-100_luminance.jpg",
+  "metadata": null,
+  "name": "TarjetaProJJM@2x-100",
+  "resources": {
+    "originalImage": "TarjetaProJJM@2x-100_original.jpg",
+    "croppedImage": "TarjetaProJJM@2x-100_cropped.jpg",
+    "thumbnailImage": "TarjetaProJJM@2x-100_thumbnail.jpg",
+    "luminanceImage": "TarjetaProJJM@2x-100_luminance.jpg"
+  },
+  "created": 1785894773631,
+  "updated": 1785894793482
+}

@@ -91,39 +91,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "63e556cc-9327-4af1-9630-550e4205ebc5": {
-      "id": "63e556cc-9327-4af1-9630-550e4205ebc5",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0.7071067811865476,
-        6.662370670854606e-17,
-        1.0162132620738823e-16,
-        0.7071067811865475
-      ],
-      "scale": [
-        0.2394706220612303,
-        0.35074730566994655,
-        0.2638823195010203
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/model_JJM.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "model_JJM.glb",
-      "order": 2.482675131407787
-    },
     "1409dd0d-ecc5-4c20-b76a-9796615e7b98": {
       "id": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
       "position": [
@@ -148,9 +115,42 @@
       "components": {},
       "name": "Image Target",
       "imageTarget": {
-        "name": "Targeta"
+        "name": "TarjetaProJJM@2x-100"
       },
       "order": 4.468140376014724
+    },
+    "4ae29f2e-87d0-4af5-b78e-3043642d0c08": {
+      "id": "4ae29f2e-87d0-4af5-b78e-3043642d0c08",
+      "position": [
+        -0.23923935967479876,
+        0.09743945297799742,
+        2.0413657094540516e-17
+      ],
+      "rotation": [
+        0.7071067811865476,
+        6.662370670854595e-17,
+        1.0162132620738828e-16,
+        0.7071067811865475
+      ],
+      "scale": [
+        0.2394706220612303,
+        0.35074730566994616,
+        0.26388231950102
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/AvatarFinal.glb"
+        },
+        "animationClip": "Idle",
+        "loop": true
+      },
+      "name": "AvatarFinal.glb",
+      "order": 5.877289909876118
     }
   },
   "spaces": {
