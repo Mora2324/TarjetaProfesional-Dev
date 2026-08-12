@@ -233,14 +233,15 @@
         "type": "3d",
         "width": 100,
         "height": 36,
-        "background": "#ad50ff",
+        "background": "#48bed7",
         "borderRadius": 18,
         "flexDirection": "row",
         "backgroundOpacity": 1,
         "padding": "10",
         "gap": "6",
         "alignItems": "center",
-        "justifyContent": "center"
+        "justifyContent": "center",
+        "backgroundSize": "contain"
       },
       "name": "Button",
       "order": 7.355254424659796
