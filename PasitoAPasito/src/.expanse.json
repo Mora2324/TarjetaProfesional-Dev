@@ -157,6 +157,160 @@
       },
       "name": "AvatarFinal.glb",
       "order": 5.877289909876118
+    },
+    "3feb06c1-cffb-44e4-987e-a7c6d428e2c8": {
+      "id": "3feb06c1-cffb-44e4-987e-a7c6d428e2c8",
+      "position": [
+        -0.0282526240014337,
+        1.956574458509762,
+        -1.1254112606165783
+      ],
+      "rotation": [
+        -2.660623885097914e-8,
+        6.938895380850175e-18,
+        -4.163336379267908e-17,
+        0.9999999999999996
+      ],
+      "scale": [
+        1.0000000000000002,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 4,
+        "height": 4
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/videotest8thwall.mp4"
+        },
+        "forceTransparent": false
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Plane",
+      "order": 5.562603949122497,
+      "videoControls": {}
+    },
+    "29805f25-bf07-4648-9e66-da5706ac7dc3": {
+      "id": "29805f25-bf07-4648-9e66-da5706ac7dc3",
+      "position": [
+        0,
+        2.1041436483444156,
+        -1.009553901211419
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.196984681027032,
+        1.9975576480554498,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "bd74f5c7-f327-4f04-b197-4323868855a4": {
+          "id": "bd74f5c7-f327-4f04-b197-4323868855a4",
+          "name": "Play Pause Video",
+          "parameters": {
+            "videoPlayer": {
+              "type": "entity",
+              "id": "3feb06c1-cffb-44e4-987e-a7c6d428e2c8"
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button",
+      "order": 7.355254424659796
+    },
+    "c72a5b66-a51d-4da4-bba9-02f22d1925c5": {
+      "id": "c72a5b66-a51d-4da4-bba9-02f22d1925c5",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "29805f25-bf07-4648-9e66-da5706ac7dc3",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://static.vecteezy.com/system/resources/thumbnails/035/753/221/small/video-play-button-icon-for-graphic-design-logo-web-site-social-media-mobile-app-ui-illustration-png.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.42929628028604677
+    },
+    "81505f63-2787-4d47-a16f-76d2c58996bb": {
+      "id": "81505f63-2787-4d47-a16f-76d2c58996bb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "29805f25-bf07-4648-9e66-da5706ac7dc3",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "PLAY",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.0310993571719242
     }
   },
   "spaces": {
