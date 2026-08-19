@@ -11,7 +11,8 @@ ecs.registerComponent({
     ecs.defineState('default')
       .initial()
       .listen(eid, ecs.input.UI_CLICK, () => {
-        const videoPlayer = schemaAttribute.get(eid).videoPlayer
+        const {videoPlayer} = schemaAttribute.get(eid)
+
         const video = ecs.VideoControls.get(world, videoPlayer)
 
         const shouldPlay = video.paused

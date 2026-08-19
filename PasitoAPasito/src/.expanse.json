@@ -123,19 +123,19 @@
       "id": "4ae29f2e-87d0-4af5-b78e-3043642d0c08",
       "position": [
         -0.3263944883240258,
-        -0.23354128593466464,
-        -8.03110068115018e-17
+        -0.23354128593466456,
+        0.09117851107030729
       ],
       "rotation": [
         2.4504096386509033e-16,
-        -2.1079418992116827e-17,
+        -2.1079418992116833e-17,
         1.374153205099136e-16,
         1
       ],
       "scale": [
         0.2394706220612303,
         0.26388231950102,
-        0.3507473056699458
+        0.3507473056699456
       ],
       "geometry": null,
       "material": null,
@@ -162,19 +162,19 @@
       "id": "3feb06c1-cffb-44e4-987e-a7c6d428e2c8",
       "position": [
         -0.006765673444485539,
-        0.805435430049006,
+        0.8054354300490061,
         -0.0050062616615381035
       ],
       "rotation": [
-        -3.229769583316191e-8,
-        3.117127889326612e-18,
-        9.15931074804517e-17,
+        -3.498439290912113e-8,
+        -5.967950324595025e-18,
+        9.368335140935403e-17,
         0.9999999999999993
       ],
       "scale": [
         0.23947062206123035,
-        0.263882333542854,
-        0.3507473243340809
+        0.2638823335428542,
+        0.35074732433408107
       ],
       "geometry": {
         "type": "plane",
@@ -185,34 +185,52 @@
         "type": "basic",
         "color": "#FFFFFF",
         "textureSrc": {
-          "type": "url",
-          "url": "https://youtu.be/HdrhDHOmDXc?si=aA3pinScabOQQiRt"
+          "type": "asset",
+          "asset": "assets/HanaNoRoninRedux.mp4"
         },
         "forceTransparent": false
       },
       "parentId": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
-      "components": {},
+      "components": {
+        "3836fdd7-ddd9-4d28-b906-1c1f6f2b8ca1": {
+          "id": "3836fdd7-ddd9-4d28-b906-1c1f6f2b8ca1",
+          "name": "Pause Video On Target Lost",
+          "parameters": {
+            "videoPlayer": {
+              "type": "entity",
+              "id": "3feb06c1-cffb-44e4-987e-a7c6d428e2c8"
+            },
+            "imageTargetName": "TarjetaProJJM@2x-100-1",
+            "playButton": {
+              "type": "entity",
+              "id": "29805f25-bf07-4648-9e66-da5706ac7dc3"
+            }
+          }
+        }
+      },
       "name": "Plane",
-      "order": 7.3589675240720585,
-      "videoControls": {}
+      "order": 19.016675183153215,
+      "videoControls": {
+        "paused": true
+      }
     },
     "29805f25-bf07-4648-9e66-da5706ac7dc3": {
       "id": "29805f25-bf07-4648-9e66-da5706ac7dc3",
       "position": [
-        0.02825262400143368,
-        0.14756917581707407,
-        0.11585736109262368
+        0.028252624001433697,
+        -0.3139807169037243,
+        0.11585733679639068
       ],
       "rotation": [
-        2.6606238850979145e-8,
-        -6.938895380850126e-18,
-        4.1633363792679146e-17,
-        0.9999999999999997
+        2.6606238942986854e-8,
+        -1.6047259087756526e-17,
+        3.9300093873031955e-17,
+        0.9999999999999996
       ],
       "scale": [
         2.1969846810270317,
-        1.9975575417604554,
-        0.9999999467875211
+        1.9975575417604552,
+        0.9999999467875209
       ],
       "geometry": null,
       "material": null,
@@ -244,7 +262,7 @@
         "backgroundSize": "contain"
       },
       "name": "Button",
-      "order": 7.355254424659796
+      "order": 5.934548852576986
     },
     "c72a5b66-a51d-4da4-bba9-02f22d1925c5": {
       "id": "c72a5b66-a51d-4da4-bba9-02f22d1925c5",
@@ -312,6 +330,276 @@
         "fontSize": 16
       },
       "order": 1.0310993571719242
+    },
+    "7d7a1496-0e78-47e2-92eb-e650f64feac4": {
+      "id": "7d7a1496-0e78-47e2-92eb-e650f64feac4",
+      "position": [
+        -0.14554384414167337,
+        -0.1890148316697919,
+        0.24292985579119894
+      ],
+      "rotation": [
+        5.199650425333716e-16,
+        -2.764354876211853e-17,
+        1.197690694708106e-16,
+        1
+      ],
+      "scale": [
+        0.017423583784883727,
+        0.019199748443464087,
+        0.025519936496009695
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
+      "components": {
+        "fb2154ee-074f-4f92-8976-9d948b8a81b9": {
+          "id": "fb2154ee-074f-4f92-8976-9d948b8a81b9",
+          "name": "Social Link",
+          "parameters": {
+            "url": "https://www.instagram.com/juanjosemora2324?igsi=cng0c2wzcTgzdXFi"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/InstagramIcon.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "InstagramIcon.glb",
+      "order": 13.883369218440937,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "01240fbe-445d-44b9-998c-6dc2b65a1a85": {
+      "id": "01240fbe-445d-44b9-998c-6dc2b65a1a85",
+      "position": [
+        -0.049008060195334845,
+        -0.2511961616998427,
+        0.2610069622308094
+      ],
+      "rotation": [
+        3.4664336168891435e-16,
+        -1.2784280060711519e-17,
+        1.2362230244112103e-16,
+        1
+      ],
+      "scale": [
+        0.14175557155804566,
+        0.15620617135811088,
+        0.2076262397438246
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
+      "components": {
+        "7cd66b3e-79ec-4263-9223-aec47b27e6ac": {
+          "id": "7cd66b3e-79ec-4263-9223-aec47b27e6ac",
+          "name": "Social Link",
+          "parameters": {
+            "url": "https://www.youtube.com/@juanjosemoraospina8571"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/youtube_3d.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "youtube_3d.glb",
+      "order": 10.342288363357223,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "59f300dd-b43a-458c-afc8-b48e84213603": {
+      "id": "59f300dd-b43a-458c-afc8-b48e84213603",
+      "position": [
+        0.18623228305539824,
+        -0.2407867233769117,
+        0.23888970169667018
+      ],
+      "rotation": [
+        0.05880854866213772,
+        -8.023270891167136e-18,
+        1.2383305803252746e-16,
+        0.9981378020217622
+      ],
+      "scale": [
+        0.0008521883884641744,
+        0.0009436493510598426,
+        0.0012447159305635877
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
+      "components": {
+        "be625139-0b39-4570-9d8e-9fb5aa128961": {
+          "id": "be625139-0b39-4570-9d8e-9fb5aa128961",
+          "name": "Social Link",
+          "parameters": {
+            "url": "https://juanjosemoraportfolio.netlify.app"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/folderIcon.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "folderIcon.glb",
+      "order": 12.191125771137546
+    },
+    "45772b39-ed4d-4a10-b037-b710183d1428": {
+      "id": "45772b39-ed4d-4a10-b037-b710183d1428",
+      "position": [
+        -0.14545834413263553,
+        -0.1817225317462643,
+        0.3013033517258836
+      ],
+      "rotation": [
+        3.466433616889144e-16,
+        -1.2784280060711522e-17,
+        1.23622302441121e-16,
+        1
+      ],
+      "scale": [
+        0.11963085325079252,
+        0.2164035177196073,
+        0.4320456461645203
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
+      "components": {
+        "e3481b7b-5ebe-40a2-b19c-657ba017fc76": {
+          "id": "e3481b7b-5ebe-40a2-b19c-657ba017fc76",
+          "name": "Social Link",
+          "parameters": {
+            "url": "https://www.instagram.com/juanjosemora2324?igsi=cng0c2wzcTgzdXFi"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "opacity": 0
+      },
+      "name": "Instagram",
+      "order": 15.124186068524192
+    },
+    "b9f037d9-fbee-4179-8232-6eea6b194b03": {
+      "id": "b9f037d9-fbee-4179-8232-6eea6b194b03",
+      "position": [
+        0.0028991199034647764,
+        -0.19318329944325954,
+        0.30130335172588335
+      ],
+      "rotation": [
+        3.4664336168891445e-16,
+        -1.2784280060711525e-17,
+        1.23622302441121e-16,
+        1
+      ],
+      "scale": [
+        0.11963085325079252,
+        0.21640351771960717,
+        0.4320456461645202
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
+      "components": {
+        "e3481b7b-5ebe-40a2-b19c-657ba017fc76": {
+          "id": "e3481b7b-5ebe-40a2-b19c-657ba017fc76",
+          "name": "Social Link",
+          "parameters": {
+            "url": "https://www.youtube.com/@juanjosemoraospina8571"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "opacity": 0
+      },
+      "name": "YouTube",
+      "order": 16.21345110183829
+    },
+    "c792b38f-a711-47c7-bb69-f92f561074b6": {
+      "id": "c792b38f-a711-47c7-bb69-f92f561074b6",
+      "position": [
+        0.1811972641254901,
+        -0.1931832994432595,
+        0.3013033517258833
+      ],
+      "rotation": [
+        3.4664336168891445e-16,
+        -1.2784280060711525e-17,
+        1.23622302441121e-16,
+        1
+      ],
+      "scale": [
+        0.11963085325079252,
+        0.21640351771960714,
+        0.4320456461645202
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1409dd0d-ecc5-4c20-b76a-9796615e7b98",
+      "components": {
+        "e3481b7b-5ebe-40a2-b19c-657ba017fc76": {
+          "id": "e3481b7b-5ebe-40a2-b19c-657ba017fc76",
+          "name": "Social Link",
+          "parameters": {
+            "url": "https://juanjosemoraportfolio.netlify.app"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "opacity": 0
+      },
+      "name": "Bitacora",
+      "order": 17.264433973107476
     }
   },
   "spaces": {
